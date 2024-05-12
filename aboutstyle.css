@@ -1,0 +1,51 @@
+h1{
+    color: black;
+    font-family: Helvetica, sans-serif;
+    size: 100;
+    font-weight: bold;
+}
+body {
+    background-image: url("HERO MAIN ARTICLE IMAGE.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+    
+    .container {
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        height: 80vh;
+        display: flex;
+    }
+    
+    .window {
+        text-align: left;
+    }
+    .control-panel {
+        background-color: #ffffff;
+        padding: 20px;
+        width: 200px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        float: left;
+    }
+    .control-panel h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+    }
+    .control-panel a {
+        display: block;
+        text-decoration: none;
+        color: #007bff; 
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+    }
+    .control-panel a:hover {
+        color: #ff7f50;
+    }
